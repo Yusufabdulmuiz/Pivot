@@ -251,18 +251,108 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 
 
-	.home_img {
+	
+
 		position: absolute;
-        min-width: 180px;
-        height: 60px;
-        left: 19.36px;
+
+        width: 340px ;
+
+        height: 330px;
+
+        left:19.36px;
+
         top: 70.03px;
-        background: url(.jpg), #FFFFFF;
+
+		overflow: hidden;
+
         border-radius: 19.1803px;
+
 		
 
 
+
+
+
     }
+
+
+
+	.slider  {
+
+		width: 100%;
+
+		height: 100%;
+
+		display: flex;
+
+		animation: slider 15s linear infinite;
+
+	}
+
+ @keyframes slider {
+
+ 
+
+0% {
+
+	margin-left: -680px; ;
+
+}	
+
+30% {
+
+	margin-left: -680px; ;
+
+}	
+
+35% {
+
+	margin-left: -324px; 
+
+}
+
+	
+
+65% {
+
+	margin-left: -324px; ;
+
+}
+
+70% {
+
+	margin-left: 40px; ;
+
+}		
+
+100% {
+
+	margin-left: 40px; 
+
+}	
+
+ }
+
+
+
+	.slider   img {
+
+		width: 100%;
+
+		margin-left: var(--mg-2);
+
+	}
+		
+        
+       
+        
+       
+       
+       
+		
+
+
+    
 
 /*****Services SECTION*****/
 
