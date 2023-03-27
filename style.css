@@ -257,7 +257,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 	.home_img {
 		position: absolute;
 
-        width: 300px ;
+        width: 320px ;
 
         height: 330px;
 	
@@ -326,13 +326,13 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 70% {
 
-	margin-left: 40px; ;
+	margin-left: 20px; ;
 
 }		
 
 100% {
 
-	margin-left: 40px; 
+	margin-left: 20px; 
 
 }	
 
