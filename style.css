@@ -257,7 +257,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 	.home_img {
 		position: absolute;
 
-        width: 350px ;
+        width: 340px ;
 
         height: 330px;
 	
@@ -297,7 +297,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 0% {
 
-	margin-left: -920px; ;
+	margin-left: -920px; 
 
 }
 	 5%{
@@ -306,7 +306,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 30% {
 
-	margin-left: -640px; ;
+	margin-left: -640px; 
 
 }	
 
@@ -320,19 +320,19 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 65% {
 
-	margin-left: -324px; ;
+	margin-left: -324px; 
 
 }
 
 70% {
 
-	margin-left: 10px; ;
+	margin-left: 13px; 
 
 }		
 
 100% {
 
-	margin-left: 10px; 
+	margin-left: 13px; 
 
 }	
 
@@ -344,7 +344,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 		width: 100%;
 
-		margin-left: var(--mg-2);
+		margin-left: var(--mg-4);
 
 	}
 		
