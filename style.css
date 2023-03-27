@@ -7,8 +7,8 @@
 	--font-semi:600;
 	--first-color:rgb(253, 178, 66);
 	--second-color:#0e2431;
-    --body-font: 'Poppins', sans-serif;
-    --body-font: 'Poppins', sans-serif;
+    
+    
     --big-font-size:2rem;
     --h2-font-size:1.25rem;
     --normal-font-size:0.938rem;
@@ -31,6 +31,8 @@
 	--mg-4:2rem;
     --mg-5:2.5rem;
     --mg-6:3rem;
+	
+	
 }
 /***Z-imdex***/
 :root {
@@ -439,7 +441,7 @@ margin-bottom: 20rem;
 }
 .about {
 	margin-bottom: 0;
-	padding-top: 6rem;
+	padding-top: 8rem;
 }
 
 
