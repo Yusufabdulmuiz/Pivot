@@ -257,7 +257,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 	.home_img {
 		position: absolute;
 
-        width: 320px ;
+        width: 350px ;
 
         height: 330px;
 	
@@ -326,13 +326,13 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 
 70% {
 
-	margin-left: 20px; ;
+	margin-left: 10px; ;
 
 }		
 
 100% {
 
-	margin-left: 20px; 
+	margin-left: 10px; 
 
 }	
 
@@ -415,7 +415,7 @@ margin-bottom: 20rem;
 	text-decoration: none;
 	padding: 2px 6px;
 	border: 1px solid black;
-	border-radius: 2;
+	border-radius: 2px;
 	color: black;
 	background: linear-gradient(to right, transparent 50%, var(--first-color) 50%);
 	background-position: left;
