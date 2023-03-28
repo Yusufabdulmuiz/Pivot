@@ -257,7 +257,7 @@ box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
 	.home_img {
 		position: absolute;
 
-       min-width: 300px ;
+       min-width: 100% ;
 
         height: 330px;
 	
