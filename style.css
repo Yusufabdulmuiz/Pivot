@@ -569,6 +569,10 @@ margin-top:10rem;
 
 
 /*****blog****/
+.Blog {
+
+	margin-bottom: 0;
+}
 .blog {
 	display: block;
 	padding: 2rem;
@@ -652,7 +656,56 @@ margin-top:10rem;
      border-bottom: 1px solid rgb(149, 233, 15);
      border-right: 1px solid rgb(165, 27, 108)
 	}	
-}/*****FOOTER****/
+}
+.advert {
+	background-color: #FFD799;
+	height: 77px;
+	text-align: center;
+	padding-top: 25px;
+	color: #000000;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #000000;
+	
+}
+.advert p {
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+
+.news_letter {
+	text-align: center;
+	background-color: #FFD799;
+	padding: 6px 3px;
+	align-items: center;
+	justify-content: space-around;
+}
+.subscribe {
+background-color: #ffffff;
+width: 80%;
+margin: 2rem auto;
+border-radius: 8px;
+padding:8px ;
+
+}
+
+.subscribe input {
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	color:  #463b3b;
+}
+
+.subscribe .btn {
+	padding: 3px 12px;
+	background: var(--first-color);
+	border-radius: 4px;
+	font-weight: 600;
+
+}
+/*****FOOTER****/
 
 .footer{
 	background-color: var(--second-color);
