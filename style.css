@@ -168,7 +168,7 @@ img{
 	}
     .nav_btn {
         text-decoration: none;
-        padding: 3px 6px;
+        padding: 3px 9px;
         background: var(--first-color);
         border-radius: 2px;
         margin: 0 ;
@@ -178,7 +178,8 @@ img{
     }
 	.nav_toggle {
         color: var(--second-color);
-        font-size : 1.5rem;
+        font-size : 1.2rem;
+font-style:bold;
         cursor: pointer;
 	}
 
@@ -217,15 +218,15 @@ img{
         height: 50px;
         font-style: bold;
         font-weight: 600;
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 22px;
+    
 		
 	}
 	.text {
 		min-width: 170px;
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 16px;
         color: #000000;
 	}
     .button{
@@ -233,7 +234,7 @@ img{
     	background-color: var(--first-color);
     	color: black;
 		margin-top: var(--mg-6);
-    	padding: .75rem .75rem;
+    	padding: .75rem 1.5rem;
     	font-style: normal;
         font-weight: 400;
         font-size: 14px;
