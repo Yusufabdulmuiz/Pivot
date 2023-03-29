@@ -686,20 +686,20 @@ background-color: #ffffff;
 width: 90%;
 margin: 2rem auto;
 border-radius: 8px;
-padding:8px ;
+padding:2px8px ;
 
 }
 
 .subscribe input {
 	border: none;
 	outline: none;
-	font-size: 14px;
+	font-size: 9px;
 	font-weight: 600;
 	color:  #463b3b;
 }
 
 .subscribe .btn {
-	padding: 3px 12px;
+	padding: 3px 9px;
 	background: var(--first-color);
 	border-radius: 4px;
 	font-weight: 600;
