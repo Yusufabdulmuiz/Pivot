@@ -213,7 +213,7 @@ font-style:bold;
 	}
 
 	.home_title {
-		margin-bottom: 2rem;
+		margin-bottom: .8rem;
 		margin-top: 25rem;
         min-width: 300px;
         height: 50px;
@@ -438,7 +438,7 @@ margin-top:10rem;
 	width: 70px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top:var(--mg-6) ;
+	margin-top:7rem ;
 	margin-bottom: var(--mg-6);
 	padding-top: 1rem;
 }
