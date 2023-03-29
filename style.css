@@ -683,7 +683,7 @@ margin-top:10rem;
 }
 .subscribe {
 background-color: #ffffff;
-width: 90%;
+width: 80%;
 margin: 2rem auto;
 border-radius: 8px;
 padding:2px 8px ;
@@ -693,7 +693,7 @@ padding:2px 8px ;
 .subscribe input {
 	border: none;
 	outline: none;
-	font-size: 9px;
+	font-size: 10px;
 	font-weight: 600;
 	color:  #463b3b;
 }
