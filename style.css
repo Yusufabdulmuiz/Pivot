@@ -143,6 +143,7 @@ margin-top:5rem;
 		transition: .5s;
 	
 }
+}
 .nav_item {
 		margin-bottom: var(--mg-4);
 	}
@@ -752,7 +753,7 @@ margin:2px 0;
 .location {
 	margin-bottom: var(--mg-6);
 }
-}
+
 
 @media screen and (min-width:768px) {
 	body {
