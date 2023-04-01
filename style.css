@@ -759,8 +759,8 @@ margin:2px 0;
 		margin: 0;
 	}
 	.section {
-		padding-top: 4rem;
-		padding-bottom: 3rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 	.section-title {
 		margin-bottom: var(--mg-6);
@@ -772,6 +772,16 @@ margin:2px 0;
 	.nav {
 		height: calc(var(--header-height) + 1rem);
 	}
+.nav_btn {
+        text-decoration: none;
+        padding: 3px 9px;
+        background: var(--first-color);
+        border-radius: 2px;
+        margin: 0 ;
+		
+		font-size: 14px;
+    }
+
 	.nav_list {
 		display: flex;
 		padding-top: 0;
