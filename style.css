@@ -96,8 +96,8 @@ img{
 
 
  .section {
- 	padding-top: 2rem;
- 	padding-bottom:2rem;
+ 	padding-top: 1rem;
+ 	padding-bottom:1rem;
 	margin-bottom: 6rem;
 margin-top:10rem;
 	
@@ -371,7 +371,7 @@ height: 549px;
 background: #FFFFFF;
 padding: 0;
 margin-bottom: 20rem;
-margin-top:10rem;
+margin-top:5rem;
 }
 
 
