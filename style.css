@@ -792,9 +792,8 @@ margin:2px 0;
     
     .home {
     	height: 100vh;
-    }
-    .home_data {
-    	a    .home_data {
+ 
+    	   .home_data {
     	align-self: flex-start;
     }
 	.home_title {
