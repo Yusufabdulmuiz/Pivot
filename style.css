@@ -98,8 +98,8 @@ img{
  .section {
  	padding-top: 1rem;
  	padding-bottom:1rem;
-	margin-bottom: 6rem;
-margin-top:10rem;
+	margin-bottom: 4rem;
+margin-top:5rem;
 	
  	 }
  .bd-grid {
@@ -761,6 +761,7 @@ margin:2px 0;
 	.section {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
+width:100%;
 	}
 	.section-title {
 		margin-bottom: var(--mg-6);
@@ -806,6 +807,7 @@ margin:2px 0;
  
     	   .home_data {
     	align-self: flex-start;
+z-index:-1;
     }
 	.home_title {
         width: 420px;
@@ -898,8 +900,8 @@ color: #000000;
 		align-items: center;
 		justify-content: center;
 		margin-left: auto;
-		margin-right: auto;
-		height: 549px;
+		margin-right:auto;
+		
 		margin-top: 5%;
 		background: #FFFFFF;
 		width: 100%;
