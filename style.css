@@ -775,7 +775,8 @@ width:100%;
         background: var(--first-color);
         border-radius: 4px;
         margin: 0 ;
-        position:relative; right:0;
+        position:absolute; right:0;
+top:0;
         font-size: 14px;
     }
 
