@@ -794,6 +794,7 @@ width:100%;
 	.nav_logo {
 		width: 3.1rem;
 	}
+        .home { display:flex; justify-content: space-between;}
     		} 
 			
 
