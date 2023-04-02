@@ -768,7 +768,7 @@ width:100%;
 
 		width: 100px;
 
-		top: 2rem;
+		top: 3rem;
 	}
 	.nav_list {
 		display: flex;
@@ -823,7 +823,7 @@ color: #000000;
 		position: absolute;
         width: 546.64px;
         height: 625.76px;
-        right: -121.36px;
+        right: 0px;
         top: 150.03px;
         background:  #FFFFFF;
         border-radius: 19.1803px;
