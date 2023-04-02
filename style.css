@@ -798,6 +798,9 @@ color:black;
 	.nav_logo {
 		width: 3.1rem;
 	}
+.home {
+height:auto;
+}
         .home_title {
         width: 420px;
         height: 120px;
