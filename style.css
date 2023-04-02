@@ -758,7 +758,7 @@ margin:2px 0;
 @media screen and (min-width:768px) {
 	
 	.section {
-		padding-top: 2rem;
+		padding-top: 4rem;
 		padding-bottom: 3rem;
 width:100%;
 	}
@@ -776,9 +776,7 @@ width:100%;
         border-radius: 4px;
         margin: 0 ;
         position:relative;
-        right:0;
-		
-		font-size: 14px;
+        font-size: 14px;
     }
 
 	.nav_list {
@@ -800,8 +798,7 @@ width:100%;
 		display: none;
 	}
     
-    .home {
-    	height: 70vh;}
+    .home{}
  
     	   .home_data {
     	align-self: flex-start;
