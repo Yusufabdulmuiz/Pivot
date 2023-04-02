@@ -775,7 +775,7 @@ width:100%;
         background: var(--first-color);
         border-radius: 4px;
         margin: 0 ;
-        position:relative;
+        position:relative; right:0;
         font-size: 14px;
     }
 
@@ -789,7 +789,7 @@ width:100%;
 	}
 	.nav_logo {
 
-		width: 4rem;
+		width: 3.6rem;
 	}
     	.nav_link {
 		color: var(--second-color);
