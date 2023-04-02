@@ -878,7 +878,7 @@ height:auto;
     	padding: .75rem 2.5rem;
     	font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: var(--normal-font-size);
     	border-radius: .5rem;
 		letter-spacing: 1px;
 
@@ -897,15 +897,18 @@ left:50%;
 		gap: 10px;
 padding:0 2rem;
 		}
+.services-col {
+width:auto;}
 .services-col p{
-font-size:16px;
+font-size:var(--normal-font-size);
+
 }
 
 .choose .reasons p {
-font-size:16px;
+font-size:var(--normal-font-size);
 }
 .choose .reasons h2 {
-font-size:18px;
+font-size:var(--h2-font-size);
 }
 /*****About*******/
 
@@ -944,20 +947,20 @@ font-size:18px;
 
 .about_container article>h1 {
 	text-align: left;
-	font-size: 16px;
+	font-size:var(--h2-font-size);
 	font-weight: 900;
 	margin-bottom: var(--mg-1);
 }
 .about_container article>p {
 	text-align: left;
 	padding: 0;
-	font-size: 16px;
+	font-size: var(--normal-font-size);
 } 
 .about_container article .features{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 1.2rem;
+	margin-top:var(--mg-2);
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -978,14 +981,14 @@ font-size:18px;
 	width: 100%;
 }
 .feature h2 {
-	font-size: 16px;
+	font-size:var(--h2-font-size);
 	text-align: center;
 	margin-bottom: var(--mg-2);
 	
 }
 
 .feature>p {
-  font-size:16px;
+  font-sizevar(--normal-font-size);
   text-align: left;
 } 
 
@@ -994,11 +997,11 @@ font-size:18px;
 
 .advert {
 height:177px;
-font-size:16px;
+font-size:var(--normal-font-size);
 }
 .news_letter{
 height:200px;
-font-size:16px;
+font-size:var(--normal-font-size);
 }
 .subscribe {
 background-color: #ffffff;
