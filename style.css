@@ -758,8 +758,8 @@ margin:2px 0;
 @media screen and (min-width:768px) {
 	
 	.section {
-		padding-top: 4rem;
-		padding-bottom: 3rem;
+		padding-top: 1rem;
+		padding-bottom: .5rem;
 width:100%;
 	}
 	
@@ -773,7 +773,7 @@ width:100%;
         
         padding: 6px 9px;
         border-radius: 4px;
-        position:absolute;right:2px;
+        position:relative;
 top:0px;
         font-size: var(--normal-font-size);;
     }
@@ -788,20 +788,21 @@ top:0px;
 	}
 	.nav_logo {
 
-		width: 3.6rem;
+		width: 3.1rem;
 	}
-    	.nav_link {
-		color: var(--second-color);
-	}
+    	
 	.nav_toggle {
 		display: none;
 	}
     
    
  
-    	   .home_data {
-    	align-self: flex;
-    }
+    	   .home {
+      display:flex;
+Justify-content:space-between;
+}
+    	
+    
 	.home_title {
         width: 420px;
         height: 120px;
