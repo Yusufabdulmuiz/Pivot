@@ -685,10 +685,11 @@ margin-top:5rem;
 }
 .subscribe {
 background-color: #ffffff;
-width: 70%;
+width: 50%;
 margin: 2rem auto;
 border-radius: 8px;
 display:flex;
+justify-content:space-between;
 padding:2px 8px ;
 
 }
@@ -818,8 +819,8 @@ width:100%;
         position: relative;
     	width: 546.64px;
         height: 625.76px;
-        right: -20p1.36px;
-        top: 50.03px;
+        right: -2001.36px;
+        top: 0.03px;
         background:  #FFFFFF;
         border-radius: 19.1803px;
 		overflow: hidden;
