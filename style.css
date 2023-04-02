@@ -1030,11 +1030,12 @@ justify-content: space-between;
 .footer_text .links {
 	text-align: left;
 }
-footer_text .links h5 {
+footer_text .links ul h5 {
 font-size:18px;
 }
 .footer_text .links ul li {
 	margin-bottom: var(--mg-1);
+font-size:16px;
 
 }
 .footer_text .links ul li a {
