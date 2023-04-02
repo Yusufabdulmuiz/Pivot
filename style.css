@@ -1030,7 +1030,7 @@ justify-content: space-between;
 .footer_text .links {
 	text-align: left;
 }
-footer_text .links ul h5 {
+.footer_text .links h5 {
 font-size:18px;
 }
 .footer_text .links ul li {
