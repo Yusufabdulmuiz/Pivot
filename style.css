@@ -785,7 +785,7 @@ width:100%;
     }
 	.nav_item {
 		margin-left: var(--mg-6);
-		margin-bottom: 0;
+		margin-bottom: 0; color:var(--second-color);
 	}
 	
 	.nav_toggle {
@@ -815,11 +815,11 @@ width:100%;
 		margin-bottom: var(--mg-6); 
 		} 
 .home_img {
-        position: absolute;
+        position: relative;
     	width: 546.64px;
         height: 625.76px;
-        right: -21.36px;
-        top: 150.03px;
+        right: -20p1.36px;
+        top: 50.03px;
         background:  #FFFFFF;
         border-radius: 19.1803px;
 		overflow: hidden;
