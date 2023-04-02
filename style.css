@@ -864,7 +864,26 @@ color:black;
 		width: 100%;
 		margin-left: var(--mg-6);
 	}
-}			
+.button{
+
+    	display: inline-block;
+    	background-color: var(--first-color);
+    	color: black;
+		margin-top: var(--mg-6);
+    	padding: .75rem 2.5rem;
+    	font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    	border-radius: .5rem;
+		letter-spacing: 1px;
+
+}
+.row2 {
+
+		flex-direction: row;
+		gap: 10px;
+		}
+ }			
 
 
 @media screen and (min-width:1024px){
