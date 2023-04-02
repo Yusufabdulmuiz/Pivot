@@ -708,6 +708,7 @@ padding:2px 8px ;
 	border-radius: 4px;
 	font-weight: 600;font-size:9px;
 margin:2px 0;
+
 }
 /*****FOOTER****/
 
@@ -973,6 +974,9 @@ font-size:16px;
   text-align: left;
 } 
 
+
+
+
 .advert {
 height:177px;
 font-size:16px;
@@ -1020,21 +1024,26 @@ justify-content: space-between;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 0 1rem;
-	font-size: 14px;
 
 }
 
 .footer_text .links {
 	text-align: left;
 }
+footer_text .links h5 {
+font-size:18px;
+}
 .footer_text .links ul li {
 	margin-bottom: var(--mg-1);
+
 }
 .footer_text .links ul li a {
 	color: #FFFFFF;
+font-size:16px;
 }
 .location {
 	margin-bottom: var(--mg-6);
+font-size:16px;
 }	}			
 
 
