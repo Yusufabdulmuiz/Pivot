@@ -775,9 +775,9 @@ width:100%;
         background: var(--first-color);
         border-radius: 4px;
         margin: 0 ;
-        position:absolute; right:0;
-top:0;
-        font-size: 14px;
+        position:absolute;right:2px;
+top:0px;
+        font-size: var(--normal-font-size);;
     }
 
 	.nav_list {
@@ -831,7 +831,7 @@ color: #000000;
 		position: absolute;
         width: 546.64px;
         height: 625.76px;
-        right: -195.36px;
+        right: 0;
         top: 150.03px;
         background:  #FFFFFF;
         border-radius: 19.1803px;
