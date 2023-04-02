@@ -895,21 +895,14 @@ color: #000000;
 		align-items: center;
 		justify-content: center;
 		margin-left: auto;
-		margin-right:auto;
-		
-		margin-top: 5%;
-		background: #FFFFFF;
-		width: 100%;
-		padding: 1rem 4rem;
+		margin-right:auto; height:auto;
+		min-width: 100%;
 		}
 		
 		
-		.row2 {
-			display: flex;
-			gap: 22px;
-			justify-content: center;
-			justify-content: center;
-			width: 100%;
+		.row2   {
+                flex-direction:row;
+			gap: 10px;
 			
 		
 		} 
