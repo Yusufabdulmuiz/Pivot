@@ -883,6 +883,9 @@ height:auto;
 		letter-spacing: 1px;
 
 }
+.work_btn{
+left:50%;
+}
 /*****Services**/
 .services {
     height:auto;
