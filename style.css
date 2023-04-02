@@ -820,7 +820,7 @@ width:100%;
 color: #000000;
 	}
     .home_img {
-		position: absolute;
+		position: relative;
         width: 546.64px;
         height: 625.76px;
         right: 0px;
