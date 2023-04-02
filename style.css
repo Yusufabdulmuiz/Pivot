@@ -759,7 +759,7 @@ margin:2px 0;
 @media screen and (min-width:768px) {
 	
 	.section {
-		padding-top: 1rem;
+		padding-top: 3rem;
 		padding-bottom: .5rem;
 width:100%;
 	}
@@ -783,6 +783,7 @@ width:100%;
         margin: 0 ;
 		font-size: 12px;
 		position: relative;
+color:black;
     }
 	.nav_item {
 		margin-left: var(--mg-6);
