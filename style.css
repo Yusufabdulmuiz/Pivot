@@ -799,7 +799,7 @@ top:0px;
 		display: none;
 	}
     
-    .home{}
+   
  
     	   .home_data {
     	align-self: flex-start;
@@ -828,7 +828,7 @@ margin-bottom:var(--mg-6);
 color: #000000;
 	}
     .home_img {
-		position: absolute;
+		position: absolute
         width: 546.64px;
         height: 625.76px;
         right: 0;
@@ -925,14 +925,7 @@ color: #000000;
 			
 			
 		}
-		.services-col img {
-			width: 50px;
-			height: 50px;
-			margin-left: auto;
-			margin-right: auto;
-			border-radius: 50%;
-			
-		}
+		
 		.services-col p{
 			padding: 0;
 			font-size: 16px;
@@ -954,6 +947,7 @@ color: #000000;
 			background-size: 200%;
 			transition: background-position 0.5s;
 			letter-spacing: 1px;
+font-size:1rem:
 		}
 		.services-col a:hover {
 			background-position: right;
@@ -1300,6 +1294,6 @@ justify-content: space-between;
 		margin-right: auto;
 	}
 	.home_img {
-		right: 10%;
+		right: 5%;
 	}
 }
