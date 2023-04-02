@@ -794,7 +794,9 @@ width:100%;
 	.nav_logo {
 		width: 3.1rem;
 	}
-    
+    .home {
+display:flex;
+justify-content:space-between;
     
     	.home_title {
         width: 420px;
@@ -823,8 +825,8 @@ color: #000000;
 		position: relative;
         width: 546.64px;
         height: 625.76px;
-        right: 0px;
-        top: 150.03px;
+        right: -100pxpx;
+         top:0;
         background:  #FFFFFF;
         border-radius: 19.1803px;
 		overflow: hidden;
