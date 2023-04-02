@@ -895,6 +895,7 @@ left:50%;
 
 		flex-direction: row;
 		gap: 10px;
+padding:0 2rem;
 		}
 .services-col p{
 font-size:16px;
