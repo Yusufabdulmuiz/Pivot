@@ -775,7 +775,8 @@ width:100%;
         background: var(--first-color);
         border-radius: 4px;
         margin: 0 ;
-position:relative;
+        position:relative;
+        right:0;
 		
 		font-size: 14px;
     }
@@ -809,7 +810,7 @@ z-index:-1;
 	.home_title {
         width: 420px;
         height: 120px;
-        font-size: 60px;
+        font-size: 50px;
         line-height: 64px;
 		font-style: bold;
         font-weight: 600;
