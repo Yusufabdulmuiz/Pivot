@@ -934,7 +934,7 @@ font-size:var(--h2-font-size);
 }
 
 .about_container .about_img {
-	min-width: 50%;
+	min-width: auto;
 height:auto;
 	
 }
@@ -944,7 +944,7 @@ height:auto;
 	
 }
 .about_container>article {
-	max-width: 30%;
+	min-width: auto;
 }
 
 
@@ -975,7 +975,7 @@ height:auto;
 	padding:2rem ;
 }
 .about_container article .features .feature .feature_img {
-	width: 24px;
+	width: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: var(--mg-2);
