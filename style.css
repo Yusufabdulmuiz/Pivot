@@ -949,7 +949,7 @@ padding:4rem:
 }
 
 .about_container .about_img {
-width:60%;
+width:90%;
 margin:0 auto;
 height:auto;
 	
@@ -1083,7 +1083,7 @@ font-size:var(--normal-font-size);
 font-size:var(--normal-font-size);
 
 }
-.footer_text .links ul li a {
+.footer_text .links ul li,a,h5, {
 	color: #FFFFFF;
 font-size:var(--normal-font-size);
 }
