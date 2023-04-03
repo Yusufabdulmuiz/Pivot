@@ -672,7 +672,7 @@ display:flex;
 }
 .advert p {
 	padding: 0 10px;
-	font-size: 16px;
+	font-size:var(--normal-font-size);
 }
 
 
@@ -748,6 +748,7 @@ Justify-content: space-between;
 .footer_text .links {
 	text-align: left;
 }
+
 .footer_text .links ul li {
 	margin-bottom: var(--mg-1);
 }
@@ -1070,7 +1071,7 @@ font-size:var(--normal-font-size);
 .footer_text .links {
 	text-align: left;
 }
- .links h5 {
+ .links h2 {
 font-size:var(--h2-font-size);
 }
 .footer_text .links ul {
