@@ -1056,6 +1056,7 @@ font-size:var(--normal-font-size)
 .footer .footer_text {
 	display: flex;
 	flex-direction: row;
+gap:22px;
 	justify-content: space-between;
 	padding: 0 1rem;
 font-size:var(--normal-font-size);
