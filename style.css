@@ -435,7 +435,7 @@ margin-top:5rem;
 /********about ******/
 .about_title{
 	padding: .75rem 1.5rem;
-	background: #FFF5E7;
+	background: #FFF5E7; 
 	border-radius: 16px;
 	width: 70px;
 	margin-left: auto;
@@ -899,12 +899,19 @@ left:50%;
 		gap: 10px;
 padding:0 2rem;
 		}
-.services-col {
+.services_col {
 width:auto;}
-.services-col p{
+.services_col p{
 font-size:var(--normal-font-size);
 
 }
+.services_col h3 {
+font-size: var (--h2-font-size)
+
+
+
+/****Choose***/
+
 
 .choose .reasons p {
 font-size:var(--normal-font-size);
@@ -912,6 +919,9 @@ font-size:var(--normal-font-size);
 .choose .reasons h2 {
 font-size:var(--h2-font-size);
 }
+
+
+
 /*****About*******/
 
 
@@ -953,8 +963,7 @@ height:auto;
 	font-size: var(--normal-font-size);
 } 
 .about_container article .features{
-	display: flex;
-	justify-content: space-between;
+	display: block;
 	align-items: center;
 	margin-top:var(--mg-2);
 	margin-left: auto;
