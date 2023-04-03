@@ -765,7 +765,8 @@ margin:2px 0;
 	.section {
 		padding-top: 1rem;
 		padding-bottom: .5rem;
-margin-bottom:var(--mg-2);
+margin-bottom:0;
+margin-top:0;
 width:100%;
 	}
 	
@@ -898,7 +899,7 @@ left:50%;
 
 		flex-direction: row;
 		gap: 10px;
-padding:0 2rem;
+padding:0 ;
 		}
 .services-col {
 width:auto;}
@@ -909,7 +910,7 @@ font-size:var(--normal-font-size);
 .services-col h3 {
 font-size: var(--h2-font-size);
 
-
+}
 
 /****Choose***/
 
@@ -947,12 +948,14 @@ padding-top:0;
 
 .about_container .about_img {
 
-height:auto;
+height:100px;
 	
 }
 .about_container article {
 min-width:100%;
 text-align: center; 
+justify-content:center;
+align-items:ce
 }
 .about_container article h1 {
 	text-align: center;
