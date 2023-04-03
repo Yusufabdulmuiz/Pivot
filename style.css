@@ -540,7 +540,7 @@ display:flex;
 
 }
 .block_img {
-	max-width: 60px;
+	max-width: 80px;
      margin: 2px auto;
 	}
 .block_img img {
@@ -548,7 +548,7 @@ display:flex;
 }
 .work_btn {
 	position: absolute;
-		left: 28%;
+		left: 20%;
 		font-size: 14px;
 		padding: 1rem 3rem;
 }
@@ -686,19 +686,20 @@ display:flex;
 }
 .subscribe {
 background-color: #ffffff;
-width: 80%;
+width: 90%;
 margin: 2rem auto;
 border-radius: 8px;
 display:flex;
 justify-content:space-between;
 padding:2px 8px ;
+font-size: 16px;
 
 }
 
 .subscribe input {
 	border: none;
 	outline: none;
-	font-size: 16px;
+	
 	font-weight: 600;
 	color:  #463b3b;
 }
@@ -784,7 +785,7 @@ width:100%;
         background: var(--first-color);
         border-radius: 2px;
         margin: 0 ;
-		font-size: 12px;
+		font-size: var(--normal-font-size);;
 		position: relative;
 color:black;
     }
@@ -987,8 +988,12 @@ height:auto;
   text-align: left;
 } 
 
-
-
+.blog_col h2 {
+font-size:var(--h2-font-size);
+}
+.blog_col p {
+font-size:var(--normal-font-size);
+}
 
 .advert {
 height:177px;
@@ -1046,20 +1051,20 @@ font-size:var(--normal-font-size);
 	text-align: left;
 }
 .footer_text .links h5 {
-font-size:18px;
+font-size:var(--h2-font-size);
 }
 .footer_text .links ul li {
 	margin-bottom: var(--mg-1);
-font-size:16px;
+font-size:var(--normal-font-size);
 
 }
 .footer_text .links ul li a {
 	color: #FFFFFF;
-font-size:16px;
+font-size:var(--normal-font-size);
 }
 .location {
 	margin-bottom: var(--mg-6);
-font-size:16px;
+font-size:var(--normal-font-size);
 }	}			
 
 
