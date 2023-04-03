@@ -34,32 +34,32 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*********SCROLL REVEAL ANIMATION****/
 
 const sr = ScrollReveal({
-	origin: 'left',
-	distance: '120px',
+	distance: '110px',
 	duration: 2000,
-	reset: true
+	reset: false
 })
 
-sr.reveal('.home_title',{})
-sr.reveal('.button',{delay:200, origin:'top'})
+sr.reveal('.home_title',{origin: 'left'})
+sr.reveal('.text',{delay:200, scale:'0.01'})
+sr.reveal('.button',{delay:400, origin:'left'})
 sr.reveal('.home_img',{delay:400, origin:'top'})
 
-
-/*SKILLS*/
-sr.reveal('.skills_subtitle',{ origin:'top'})
-sr.reveal('.skills_content',{delay:200, origin:'left'})
-sr.reveal('.skills_data',{interval:400})
-
-
-/******PROJECT*****/
-sr.reveal('.work_img',{interval:400, origin:'top'})
-
-/**about**/
-sr.reveal('.about_img',{origin:'left'})
-sr.reveal('.about_subtitle',{delay:200, origin:'top'})
+/**services**/
+sr.reveal('.services-col',{ interval:900, delay:'400', opacity:'0', scale:'-.1'})
 sr.reveal('.about_content',{delay:200, origin:'left'})
 
 
-/******CONTACT*****/
-sr.reveal('.contact_input',{interval:400, origin:'top'})
 
+/**about**/
+sr.reveal('.feature',{ scale:'.1', opacity:'0', interval:600})
+sr.reveal('.about_content',{delay:200, origin:'left'})
+
+
+/******work approach*****/
+sr.reveal('.block',{interval:900, scale:'.1', delay:400,})
+sr.reveal('.work_btn',{scale:'.1', delay:400,})
+
+
+/******Blog*****/
+sr.reveal('.blog_col',{interval:400, scale:'.1', delay:100,})
+sr.reveal('.work_btn',{scale:'.1', delay:400,})
