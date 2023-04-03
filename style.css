@@ -939,16 +939,14 @@ padding-top:0;
 
 
 .about_container {
-
-	
 	align-items: center;
 	justify-content : center;
    
 }
 
 .about_container .about_img {
-
-height:100px;
+margin:0 auto;
+height:50px;
 	
 }
 .about_container article {
