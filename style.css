@@ -415,6 +415,7 @@ margin-top:5rem;
 .services-col h3 {
 	padding-top:15px ;
 	text-align: center;
+font-size:16px;
 }
 .services-col a {
 	text-decoration: none;
@@ -462,7 +463,7 @@ display:flex;
 .about_container .about_img {
 	width: 100%;
 	padding: 0;
-	height:268px;
+	heigh:auto;
 	margin-bottom: 1rem;
 	
 }
@@ -899,13 +900,13 @@ left:50%;
 		gap: 10px;
 padding:0 2rem;
 		}
-.services_col {
+.services-col {
 width:auto;}
-.services_col p{
+.services-col p{
 font-size:var(--normal-font-size);
 
 }
-.services_col h3 {
+.services-col h3 {
 font-size: var (--h2-font-size)
 
 
@@ -932,6 +933,7 @@ font-size:var(--h2-font-size);
 	justify-content: center;
 	padding-left: 1.5rem;
 	padding-right: 0rem;
+padding-top:0;
 }
 
 
