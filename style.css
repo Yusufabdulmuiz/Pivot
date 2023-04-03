@@ -802,7 +802,7 @@ color:black;
 		width: 3.1rem;
 	}
 .home {
-height:50vh;
+height:52vh;
 }
         .home_title {
         width: 420px;
@@ -944,10 +944,12 @@ width:80%:
 margin:0 auto;
 	align-items: center;
 	justify-content : space-between;
+padding:4rem:
    
 }
 
 .about_container .about_img {
+width:60%;
 margin:0 auto;
 height:auto;
 	
@@ -956,7 +958,7 @@ height:auto;
 min-width:100%;
 text-align: center; 
 justify-content:center;
-align-items:ce
+align-items:center;
 }
 .about_container article h1 {
 	text-align: center;
