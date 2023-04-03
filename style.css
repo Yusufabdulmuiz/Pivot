@@ -762,9 +762,9 @@ Justify-content: space-between;
 @media screen and (min-width:768px) {
 .body {overflow: hidden;}	
 	.section {
-		padding-top: 1rem;
+		padding-top: 2rem;
 		padding-bottom: .5rem;
-margin-bottom:2rem;
+margin-bottom:5rem;
 margin-top:0;
 width:100%;
 	}
