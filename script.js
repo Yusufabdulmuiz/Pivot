@@ -56,7 +56,7 @@ sr.reveal('.about_content',{delay:200, origin:'left'})
 
 
 /******work approach*****/
-sr.reveal('.block',{interval:900, scale:'.1', delay:400,})
+sr.reveal('.block,.choose_col',{interval:900, scale:'.1', delay:400,})
 sr.reveal('.work_btn',{scale:'.1', delay:400,})
 
 
