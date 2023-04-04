@@ -556,7 +556,7 @@ display:flex;
 /*****Choose us****/
 .choose {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	padding-top: 2rem;
 	align-items: center;
 	justify-content: space-between;
