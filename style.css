@@ -453,8 +453,7 @@ font-size:16px;
 .about_container {
 display:flex;
 	flex-direction: column;
-	width:100%;
-	padding: 0 ;
+	padding: 0 2rem;
 	background: #F5F5F5;
    
 }
@@ -462,17 +461,17 @@ display:flex;
 .about_container .about_img {
 	width: 100%;
 	padding: 0;
-	heigh:auto;
-	margin-bottom: 1rem;
+	heigh:260px;
+	margin-bottom:var(--mg-4);;
 	
 }
 
 .about_container .about_img img {
 	width: 100%;
+height:100%;
 	
 }
 .about_container article {
-	min-width:85%;
 	margin-top: var(--mg-6);
 	padding-top: 4rem;
 	padding-left:.6rem ;
@@ -488,14 +487,13 @@ display:flex;
 	text-align: left;
 	padding: 0;
 	font-size: 10px;
-	min-width:40px ;
+	
 } 
 .about_container article .features{
 	display: inline-block;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 1.2rem;
-	min-width: 120px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -503,7 +501,6 @@ display:flex;
 .about_container article .features .feature {
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 50px;
 	padding:2rem ;
 }
 .about_container article .features .feature .feature_img {
@@ -555,21 +552,34 @@ display:flex;
 
 /*****Choose us****/
 .choose {
-	display: flex;
-	flex-direction: column;
+	
 	padding-top: 2rem;
 	align-items: center;
 	justify-content: space-between;
 }
-.choose .reasons  h2{
+.choose  h2{
  text-align: center;
 }
-.choose .reasons  p {
+.choose  p {
 	text-align: center;
 	padding:  2rem 0;
 }
 
-
+.choose_row {
+display:flex;
+flex-direction:column;
+}
+.choose_col {
+margin-top: 5%;
+	margin-bottom: var(--mg-6);
+	background: #ffffff;
+	cursor: pointer;
+	display: block;
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
 
 /*****blog****/
 .Blog {
@@ -887,10 +897,30 @@ height:30vh;
 		letter-spacing: 1px;
 
 }
+
+
+
+/***Work Approach***/
+
+
+
+.work {
+align-items:center;
+justify-content: space-between;
+}
+.block {
+flex-direction:row;
+margin-bottom:var(--mg-6);
+}
 .work_btn{
 left:40%;
 }
+
+
+
 /*****Services**/
+
+
 .services {
     height:auto;
 }
@@ -915,15 +945,40 @@ font-size: var(--h2-font-size);
 /****Choose***/
 
 
-.choose .reasons p {
+.choose p {
 font-size:var(--normal-font-size);
 }
-.choose .reasons h2 {
+.choose  h2 {
 font-size:var(--h2-font-size);
 }
-
-
-
+.choose .reasons h2 {text-align:center;}
+.choose .reasons {
+display:flex;
+flex-direction:row-reverse;
+justify-content: space-between;
+}
+.choose_row{
+max-height:100%;
+width:40%;
+flex-basis:37%;
+}
+.choose_col {
+margin-bottom:2px;
+max-height:22%;
+}
+.choose_col p {
+text-align:left;
+margin-top:0;
+Padding:0;
+}
+.choose .reasons .choose_img {
+width:60%;
+height:100%;
+}
+.choose_img img {
+width:100%;
+height:100%;
+}
 /*****About*******/
 
 
@@ -935,46 +990,42 @@ font-size:var(--h2-font-size);
 	padding-left:0;
 	padding-right: 0rem;
 padding-top:0;
-margin-bottom
-:0;
+margin-bottom:0;
 }
 
 
 .about_container {
-width:80%:
+width:100%:
 margin:0 auto;
-	align-items: center;
-	justify-content : space-between;
+	flex-direction:row;
 padding:4rem:
    
 }
 
 .about_container .about_img {
-width:90%;
-margin:0 auto;
-height:auto;
+width:50%;
+height:50%;
 	
 }
 .about_container article {
-min-width:100%;
-text-align: center; 
-justify-content:center;
-align-items:center;
+width:50%;
+
 }
 .about_container article h1 {
-	text-align: center;
+	text-align: left;
 	font-size:var(--h2-font-size);
 	font-weight: 900;
 	margin-bottom: var(--mg-1);
 }
 .about_container article p {
-	text-align: center;
+	text-align: left;
 	padding: 0;
 	font-size: var(--normal-font-size);
 } 
 .about_container article .features{
-	display: block;
+	display: flex;
 	align-items: center;
+justify-content: space-between;
 	margin-top:var(--mg-2);
 	margin-left: auto;
 	margin-right: auto;
@@ -982,12 +1033,11 @@ align-items:center;
 }
 .about_container article .features .feature {
 	margin-left: auto;
-	margin-right: auto;
-	min-width: 50px;
+	margin-right: auto
 	padding:2rem ;
 }
 .about_container article .features .feature .feature_img {
-	width: 50px;
+width:28px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: var(--mg-2);
@@ -1007,6 +1057,7 @@ align-items:center;
   text-align: left;
 } 
 
+/**Blog**/
 .blog_col h2 {
 font-size:var(--h2-font-size);
 }
