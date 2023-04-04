@@ -702,7 +702,7 @@ margin: 2rem auto;
 border-radius: 8px;
 display:flex;
 justify-content:space-between;
-padding:2px 8px ;
+padding:2px 4px ;
 font-size: 16px;
 
 }
@@ -710,7 +710,7 @@ font-size: 16px;
 .subscribe input {
 	border: none;
 	outline: none;
-	
+font-size:14px;
 	font-weight: 600;
 	color:  #463b3b;
 }
@@ -719,7 +719,7 @@ font-size: 16px;
 	padding: 3px 9px;
 	background: var(--first-color);
 	border-radius: 4px;
-	font-weight: 600;font-size:9px;
+	font-weight: 600;
 margin:2px 0;
 
 }
@@ -1082,7 +1082,7 @@ background-color: #ffffff;
 margin-top: 2rem;
 margin-right: auto;
 margin-left: auto;
-width: 40%;
+width:40%;
 border-radius: 8px;
 padding:8px ;
 
